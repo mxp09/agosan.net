@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="es-PA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Seguridad: politica de contenido. Solo se cargan archivos de este mismo sitio. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <title>Agosan | Mantenimiento y Recarga de Extintores en Panamá</title>
+  <meta name="description" content="Agosan: sistemas contra incendios en Ciudad de Panamá. Mantenimiento de extintores NFPA10, prueba hidrostática DOT CFR 49, recarga y certificación oficial.">
+  <link rel="canonical" href="https://agosan.net/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#12100E">
+  <meta name="geo.region" content="PA-8">
+  <meta name="geo.placename" content="Ciudad de Panamá">
+
+  <!-- Redes sociales -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_PA">
+  <meta property="og:site_name" content="Agosan">
+  <meta property="og:title" content="Agosan | Sistemas Contra Incendios en Panamá">
+  <meta property="og:description" content="Mantenimiento NFPA10, prueba hidrostática DOT CFR 49 y recarga de extintores con certificación oficial.">
+  <meta property="og:url" content="https://agosan.net/">
+  <meta property="og:image" content="https://agosan.net/assets/img/og-agosan.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Técnico de Agosan probando un sistema contra incendios">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Agosan | Sistemas Contra Incendios en Panamá">
+  <meta name="twitter:description" content="Mantenimiento NFPA10, prueba hidrostática DOT CFR 49 y recarga de extintores con certificación oficial.">
+  <meta name="twitter:image" content="https://agosan.net/assets/img/og-agosan.jpg">
+
+  <!-- Iconos -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Fuentes propias (sin servicios de terceros) y estilos -->
+  <link rel="preload" href="assets/fonts/big-shoulders.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="js/main.js" defer></script>
+  <script src="js/fire.js" defer></script>
+
+  <!-- Datos estructurados para Google (negocio local + servicios + preguntas frecuentes) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://agosan.net/#empresa",
+        "name": "Agosan",
+        "description": "Especialistas en sistemas contra incendios. Instalación, mantenimiento y certificación de equipos de seguridad en Panamá.",
+        "url": "https://agosan.net/",
+        "logo": "https://agosan.net/assets/img/logo.png",
+        "image": "https://agosan.net/assets/img/og-agosan.jpg",
+        "telephone": ["+507 266-5833", "+507 6674-8792"],
+        "email": ["Gerencia@agosan.net", "Gsanchez@agosan.net"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Altos de Cerro Viento, Circunvalación B, #159",
+          "addressLocality": "Ciudad de Panamá",
+          "addressRegion": "Panamá",
+          "addressCountry": "PA"
+        },
+        "areaServed": { "@type": "Country", "name": "Panamá" },
+        "openingHoursSpecification": [{
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "17:00"
+        }],
+        "sameAs": ["https://www.instagram.com/agosan_panama"],
+        "knowsAbout": ["NFPA 10", "DOT CFR 49", "Prueba hidrostática", "Recarga de extintores", "Sistemas contra incendios"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Servicios contra incendios",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mantenimiento NFPA10", "description": "Mantenimiento profesional de extintores según norma NFPA10." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Prueba Hidrostática DOT CFR 49", "description": "Pruebas hidrostáticas certificadas según normativa DOT CFR 49." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Recarga de Extintores", "description": "Servicio completo de recarga para extintores portátiles." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Extintores de Ruedas", "description": "Mantenimiento especializado para extintores de ruedas." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Equipos Especializados", "description": "Equipo profesional para recuperación, recarga y pruebas." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Soporte Técnico", "description": "Asesoría técnica especializada en diferentes fabricantes." } }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://agosan.net/#web",
+        "url": "https://agosan.net/",
+        "name": "Agosan",
+        "inLanguage": "es-PA",
+        "publisher": { "@id": "https://agosan.net/#empresa" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "¿Cada cuánto se hace la prueba hidrostática de un extintor?", "acceptedAnswer": { "@type": "Answer", "text": "Según DOT CFR 49: extintores de agua, espuma y CO2 cada 5 años; extintores de PQM ABC, BC y D cada 12 años." } },
+          { "@type": "Question", "name": "¿Cada cuánto se hace el mantenimiento interno de un extintor?", "acceptedAnswer": { "@type": "Answer", "text": "Según NFPA10, el mantenimiento interno se realiza cada 6 años o en caso de haberse utilizado el extintor, con inspección visual entre mantenimientos." } },
+          { "@type": "Question", "name": "¿Cada cuánto se cambia la carga de un extintor de agua o espuma?", "acceptedAnswer": { "@type": "Answer", "text": "La carga de agua se cambia cada año y la de espuma cada 3 años." } },
+          { "@type": "Question", "name": "¿Trabajan con todas las marcas de extintores?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Los procesos internos varían según el fabricante y nuestros técnicos están capacitados para trabajar con todas las marcas." } }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ============ CABECERA ============ -->
+  <header class="site-header" id="cabecera">
+    <div class="wrap site-header__bar">
+      <a class="brand" href="#inicio" aria-label="Agosan, ir al inicio">
+        <img src="assets/img/logo-80.webp" alt="" width="40" height="40">
+        <span>Agosan</span>
+      </a>
+
+      <nav class="site-nav" id="menu" aria-label="Principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#procedimientos">Procedimientos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--hivis btn--sm site-header__call" href="tel:+5072665833">
+        <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-phone"/></svg>
+        <span>266-5833</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-controls="menu" aria-expanded="false">
+        <span class="visually-hidden">Abrir menú</span>
+        <svg class="icon icon--open" aria-hidden="true"><use href="assets/icons.svg#i-menu-2"/></svg>
+        <svg class="icon icon--close" aria-hidden="true"><use href="assets/icons.svg#i-x"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <!-- Brasas animadas (js/fire.js). Clic o toque en ellas para apagarlas. -->
+      <canvas class="hero__embers" id="embers" aria-hidden="true"></canvas>
+
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <h1 id="hero-titulo" class="hero__title">
+            Sistemas <span>Contra</span> Incendios <em>Profesionales</em>
+          </h1>
+          <p class="hero__lead">
+            Protegemos tu empresa con sistemas contra incendios de última generación.
+            Especialistas en instalación, mantenimiento y certificación de equipos de seguridad.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--hivis" href="#servicios" data-extinguish>
+              Ver Servicios
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-arrow-right"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="#contacto">Contactar</a>
+          </div>
+        </div>
+
+        <figure class="hero__media">
+          <picture>
+            <source type="image/webp" srcset="assets/img/mantenimiento-480.webp 480w, assets/img/mantenimiento-640.webp 640w, assets/img/mantenimiento-800.webp 800w, assets/img/mantenimiento-1200.webp 1200w" sizes="(min-width: 960px) 40vw, 100vw">
+            <img src="assets/img/mantenimiento-800.jpg" alt="Técnico de Agosan revisando válvulas junto a una batería de cilindros rojos contra incendios" width="800" height="1067" fetchpriority="high">
+          </picture>
+          <span class="hazard" aria-hidden="true"></span>
+        </figure>
+      </div>
+
+      <p class="hero__hint" aria-hidden="true">
+        <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-fire-extinguisher"/></svg>
+        Toca las brasas para apagarlas
+      </p>
+    </section>
+
+    <!-- ============ CIFRAS (manómetros) ============ -->
+    <section class="gauges" aria-label="Agosan en cifras">
+      <ul class="wrap gauges__list">
+        <li class="gauge" data-reveal>
+          <svg class="gauge__dial" viewBox="0 0 120 120" aria-hidden="true">
+            <path class="gauge__track" d="M24.6 95.4 A50 50 0 1 1 95.4 95.4"/>
+            <path class="gauge__ok" d="M103.3 35 A50 50 0 0 1 95.4 95.4"/>
+            <line class="gauge__needle" x1="60" y1="60" x2="60" y2="18" data-fraction="0.86"/>
+            <circle class="gauge__hub" cx="60" cy="60" r="5"/>
+          </svg>
+          <p class="gauge__value"><span data-count="500">500</span>+</p>
+          <p class="gauge__label">Clientes Satisfechos</p>
+        </li>
+        <li class="gauge" data-reveal>
+          <svg class="gauge__dial" viewBox="0 0 120 120" aria-hidden="true">
+            <path class="gauge__track" d="M24.6 95.4 A50 50 0 1 1 95.4 95.4"/>
+            <path class="gauge__ok" d="M103.3 35 A50 50 0 0 1 95.4 95.4"/>
+            <line class="gauge__needle" x1="60" y1="60" x2="60" y2="18" data-fraction="0.8"/>
+            <circle class="gauge__hub" cx="60" cy="60" r="5"/>
+          </svg>
+          <p class="gauge__value"><span data-count="10">10</span>+</p>
+          <p class="gauge__label">Años de Experiencia</p>
+        </li>
+        <li class="gauge" data-reveal>
+          <svg class="gauge__dial" viewBox="0 0 120 120" aria-hidden="true">
+            <path class="gauge__track" d="M24.6 95.4 A50 50 0 1 1 95.4 95.4"/>
+            <path class="gauge__ok" d="M103.3 35 A50 50 0 0 1 95.4 95.4"/>
+            <line class="gauge__needle" x1="60" y1="60" x2="60" y2="18" data-fraction="0.92"/>
+            <circle class="gauge__hub" cx="60" cy="60" r="5"/>
+          </svg>
+          <p class="gauge__value"><span data-count="1000">1000</span>+</p>
+          <p class="gauge__label">Proyectos Completados</p>
+        </li>
+        <li class="gauge" data-reveal>
+          <svg class="gauge__dial" viewBox="0 0 120 120" aria-hidden="true">
+            <path class="gauge__track" d="M24.6 95.4 A50 50 0 1 1 95.4 95.4"/>
+            <path class="gauge__ok" d="M103.3 35 A50 50 0 0 1 95.4 95.4"/>
+            <line class="gauge__needle" x1="60" y1="60" x2="60" y2="18" data-fraction="1"/>
+            <circle class="gauge__hub" cx="60" cy="60" r="5"/>
+          </svg>
+          <p class="gauge__value"><span data-count="5.0" data-decimals="1">5.0</span></p>
+          <p class="gauge__label">Calificación Promedio</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ SERVICIOS (etiquetas de inspección) ============ -->
+    <section class="section services" id="servicios" aria-labelledby="servicios-titulo">
+      <div class="wrap">
+        <header class="section-head" data-reveal>
+          <h2 id="servicios-titulo" class="section-title">Nuestros Servicios</h2>
+          <p class="section-lead">
+            Ofrecemos servicios especializados en sistemas contra incendios para
+            proteger tu empresa y cumplir con todas las normativas de seguridad.
+          </p>
+        </header>
+
+        <div class="tags">
+          <!-- Etiqueta 1 -->
+          <article class="tag" data-reveal>
+            <span class="tag__hole" aria-hidden="true"></span>
+            <div class="tag__top">
+              <span class="tag__code">NFPA 10</span>
+              <span class="flame-out" aria-hidden="true"><svg class="flame-out__fire"><use href="assets/icons.svg#i-flame"/></svg><i></i><i></i><i></i></span>
+            </div>
+            <svg class="tag__icon" aria-hidden="true"><use href="assets/icons.svg#i-fire-extinguisher"/></svg>
+            <h3 class="tag__title">Mantenimiento NFPA10</h3>
+            <p>Mantenimiento profesional de extintores según norma NFPA10.</p>
+            <ul class="ticks">
+              <li>Inspección Visual</li>
+              <li>Mantenimiento Interno cada 6 años</li>
+              <li>Verificación de Estado</li>
+            </ul>
+            <button class="btn btn--dark btn--block" type="button" data-dialog="dlg-nfpa10" aria-haspopup="dialog">
+              Más Información <span class="visually-hidden">sobre Mantenimiento NFPA10</span>
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-arrow-up-right"/></svg>
+            </button>
+          </article>
+
+          <!-- Etiqueta 2 -->
+          <article class="tag" data-reveal>
+            <span class="tag__hole" aria-hidden="true"></span>
+            <div class="tag__top">
+              <span class="tag__code">DOT CFR 49</span>
+              <span class="flame-out" aria-hidden="true"><svg class="flame-out__fire"><use href="assets/icons.svg#i-flame"/></svg><i></i><i></i><i></i></span>
+            </div>
+            <svg class="tag__icon" aria-hidden="true"><use href="assets/icons.svg#i-droplet"/></svg>
+            <h3 class="tag__title">Prueba Hidrostática DOT CFR 49</h3>
+            <p>Pruebas hidrostáticas certificadas según normativa DOT CFR 49.</p>
+            <ul class="ticks">
+              <li>Extintores Agua/Espuma: 5 años</li>
+              <li>Extintores CO2: 5 años</li>
+              <li>Extintores PQM ABC/BC/D: 12 años</li>
+            </ul>
+            <button class="btn btn--dark btn--block" type="button" data-dialog="dlg-hidrostatica" aria-haspopup="dialog">
+              Más Información <span class="visually-hidden">sobre Prueba Hidrostática</span>
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-arrow-up-right"/></svg>
+            </button>
+          </article>
+
+          <!-- Etiqueta 3 -->
+          <article class="tag" data-reveal>
+            <span class="tag__hole" aria-hidden="true"></span>
+            <div class="tag__top">
+              <span class="tag__code">Recarga</span>
+              <span class="flame-out" aria-hidden="true"><svg class="flame-out__fire"><use href="assets/icons.svg#i-flame"/></svg><i></i><i></i><i></i></span>
+            </div>
+            <svg class="tag__icon" aria-hidden="true"><use href="assets/icons.svg#i-refresh"/></svg>
+            <h3 class="tag__title">Recarga de Extintores</h3>
+            <p>Servicio completo de recarga para extintores portátiles.</p>
+            <ul class="ticks">
+              <li>Recuperación de Polvo Químico</li>
+              <li>Cambio Espuma cada 3 años</li>
+              <li>Cambio Agua cada año</li>
+            </ul>
+            <button class="btn btn--dark btn--block" type="button" data-dialog="dlg-recarga" aria-haspopup="dialog">
+              Más Información <span class="visually-hidden">sobre Recarga de Extintores</span>
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-arrow-up-right"/></svg>
+            </button>
+          </article>
+
+          <!-- Etiqueta 4 -->
+          <article class="tag" data-reveal>
+            <span class="tag__hole" aria-hidden="true"></span>
+            <div class="tag__top">
+              <span class="tag__code">Ruedas</span>
+              <span class="flame-out" aria-hidden="true"><svg class="flame-out__fire"><use href="assets/icons.svg#i-flame"/></svg><i></i><i></i><i></i></span>
+            </div>
+            <svg class="tag__icon" aria-hidden="true"><use href="assets/icons.svg#i-wheel"/></svg>
+            <h3 class="tag__title">Extintores de Ruedas</h3>
+            <p>Mantenimiento especializado para extintores de ruedas.</p>
+            <ul class="ticks">
+              <li>Mismo procedimiento que en los extintores portátiles</li>
+              <li>Calibración de manómetro</li>
+              <li>Verificación del asiento</li>
+            </ul>
+            <button class="btn btn--dark btn--block" type="button" data-dialog="dlg-ruedas" aria-haspopup="dialog">
+              Más Información <span class="visually-hidden">sobre Extintores de Ruedas</span>
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-arrow-up-right"/></svg>
+            </button>
+          </article>
+
+          <!-- Etiqueta 5 -->
+          <article class="tag" data-reveal>
+            <span class="tag__hole" aria-hidden="true"></span>
+            <div class="tag__top">
+              <span class="tag__code">Equipos</span>
+              <span class="flame-out" aria-hidden="true"><svg class="flame-out__fire"><use href="assets/icons.svg#i-flame"/></svg><i></i><i></i><i></i></span>
+            </div>
+            <svg class="tag__icon" aria-hidden="true"><use href="assets/icons.svg#i-gauge"/></svg>
+            <h3 class="tag__title">Equipos Especializados</h3>
+            <p>Utilizamos equipo profesional para recuperación, recarga y pruebas.</p>
+            <ul class="ticks">
+              <li>Equipo Baja/Alta Presión</li>
+              <li>Recuperador de Polvo</li>
+              <li>Carga con Nitrógeno</li>
+            </ul>
+            <button class="btn btn--dark btn--block" type="button" data-dialog="dlg-equipos" aria-haspopup="dialog">
+              Más Información <span class="visually-hidden">sobre Equipos Especializados</span>
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-arrow-up-right"/></svg>
+            </button>
+          </article>
+
+          <!-- Etiqueta 6 -->
+          <article class="tag" data-reveal>
+            <span class="tag__hole" aria-hidden="true"></span>
+            <div class="tag__top">
+              <span class="tag__code">Soporte</span>
+              <span class="flame-out" aria-hidden="true"><svg class="flame-out__fire"><use href="assets/icons.svg#i-flame"/></svg><i></i><i></i><i></i></span>
+            </div>
+            <svg class="tag__icon" aria-hidden="true"><use href="assets/icons.svg#i-headset"/></svg>
+            <h3 class="tag__title">Soporte Técnico</h3>
+            <p>Asesoría técnica especializada en diferentes fabricantes.</p>
+            <ul class="ticks">
+              <li>Procesos por Fabricante</li>
+              <li>Documentación Completa</li>
+              <li>Respuesta Rápida</li>
+            </ul>
+            <button class="btn btn--dark btn--block" type="button" data-dialog="dlg-soporte" aria-haspopup="dialog">
+              Más Información <span class="visually-hidden">sobre Soporte Técnico</span>
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-arrow-up-right"/></svg>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NOSOTROS ============ -->
+    <section class="section about" id="nosotros" aria-labelledby="nosotros-titulo">
+      <div class="wrap about__grid">
+        <header class="about__intro" data-reveal>
+          <h2 id="nosotros-titulo" class="section-title">¿Por Qué Elegirnos?</h2>
+          <p class="section-lead">
+            Somos un equipo de profesionales especializados en sistemas contra incendios con más de
+            10 años de experiencia. Nos dedicamos a proteger tu empresa con las mejores soluciones
+            de seguridad contra incendios.
+          </p>
+        </header>
+
+        <div class="pillars">
+          <figure class="pillar pillar--wide" data-reveal>
+            <picture>
+              <source type="image/webp" srcset="assets/img/seguridad-480.webp 480w, assets/img/seguridad-640.webp 640w, assets/img/seguridad-800.webp 800w, assets/img/seguridad-1200.webp 1200w" sizes="(min-width: 960px) 55vw, 100vw">
+              <img src="assets/img/seguridad-800.jpg" alt="Técnico con casco y chaleco probando un colector rojo de hidrantes con descarga de agua" width="800" height="600" loading="lazy" decoding="async">
+            </picture>
+            <figcaption>
+              <h3>Seguridad Garantizada</h3>
+              <p>Cada instalación está diseñada para brindar la máxima protección y cumplir con todas las normativas de seguridad.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="pillar" data-reveal>
+            <picture>
+              <source type="image/webp" srcset="assets/img/certificacion-480.webp 480w, assets/img/certificacion-640.webp 640w, assets/img/certificacion-800.webp 800w" sizes="(min-width: 960px) 27vw, 100vw">
+              <img src="assets/img/certificacion-800.jpg" alt="Técnico colocando precintos de seguridad en las válvulas de cilindros de CO2" width="800" height="1067" loading="lazy" decoding="async">
+            </picture>
+            <figcaption>
+              <h3>Certificación Oficial</h3>
+              <p>Todos nuestros trabajos incluyen certificación oficial y cumplimiento de normativas vigentes.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="pillar" data-reveal>
+            <picture>
+              <source type="image/webp" srcset="assets/img/mantenimiento-480.webp 480w, assets/img/mantenimiento-640.webp 640w, assets/img/mantenimiento-800.webp 800w" sizes="(min-width: 960px) 27vw, 100vw">
+              <img src="assets/img/mantenimiento-800.jpg" alt="Técnico inspeccionando el cuarto de válvulas de un sistema de extinción por gas" width="800" height="1067" loading="lazy" decoding="async">
+            </picture>
+            <figcaption>
+              <h3>Mantenimiento Continuo</h3>
+              <p>Ofrecemos planes de mantenimiento preventivo para asegurar el funcionamiento óptimo de tus sistemas.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Proceso en 4 pasos: una manguera que se llena al entrar en pantalla -->
+      <div class="wrap process" data-reveal>
+        <h3 class="process__title">Nuestro Proceso</h3>
+        <ol class="process__steps">
+          <li><span class="process__num">1</span><h4>Consulta Inicial</h4><p>Analizamos tus necesidades</p></li>
+          <li><span class="process__num">2</span><h4>Propuesta</h4><p>Creamos una solución personalizada</p></li>
+          <li><span class="process__num">3</span><h4>Desarrollo</h4><p>Ejecutamos con la máxima calidad</p></li>
+          <li><span class="process__num">4</span><h4>Entrega y Soporte</h4><p>Acompañamiento continuo</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROCEDIMIENTOS (pestañas) ============ -->
+    <section class="section procedures" id="procedimientos" aria-labelledby="procedimientos-titulo">
+      <div class="wrap">
+        <header class="section-head" data-reveal>
+          <h2 id="procedimientos-titulo" class="section-title">Procedimientos Técnicos</h2>
+          <p class="section-lead">
+            Información detallada sobre nuestros procedimientos de mantenimiento,
+            pruebas hidrostáticas y recarga de extintores.
+          </p>
+        </header>
+
+        <div class="tabs" data-tabs>
+          <div class="tabs__list" role="tablist" aria-label="Procedimientos">
+            <button class="tabs__tab" type="button" role="tab" id="tab-mantenimiento" aria-controls="panel-mantenimiento" aria-selected="true">Mantenimiento</button>
+            <button class="tabs__tab" type="button" role="tab" id="tab-hidrostatica" aria-controls="panel-hidrostatica" aria-selected="false" tabindex="-1">Prueba Hidrostática</button>
+            <button class="tabs__tab" type="button" role="tab" id="tab-recarga" aria-controls="panel-recarga" aria-selected="false" tabindex="-1">Recarga</button>
+          </div>
+
+          <!-- Panel: Mantenimiento -->
+          <div class="tabs__panel" role="tabpanel" id="panel-mantenimiento" aria-labelledby="tab-mantenimiento" tabindex="0">
+            <h3 class="panel-title">Mantenimiento NFPA10</h3>
+            <ul class="checklist">
+              <li>Se verifica la fecha de la última prueba hidrostática</li>
+              <li>Mantenimiento interno cada 6 años o en caso de haberse utilizado</li>
+              <li>Inspección visual entre mantenimientos</li>
+              <li>Verificación del estado interno (manómetro y asiento)</li>
+            </ul>
+            <div class="note" role="note">
+              <h4>Nota Importante:</h4>
+              <p>Los procesos internos varían dependiendo del fabricante del extintor. Nuestros técnicos están capacitados para trabajar con todas las marcas.</p>
+            </div>
+          </div>
+
+          <!-- Panel: Prueba hidrostática -->
+          <div class="tabs__panel" role="tabpanel" id="panel-hidrostatica" aria-labelledby="tab-hidrostatica" tabindex="0" hidden>
+            <h3 class="panel-title">Prueba Hidrostática DOT CFR 49</h3>
+
+            <h4 class="panel-sub">Intervalos de Prueba:</h4>
+            <ul class="ruler">
+              <li class="ruler__row ruler__axis" aria-hidden="true">
+                <span class="ruler__type"></span>
+                <span class="ruler__scale"><b>0</b><b>3</b><b>6</b><b>9</b><b>12 años</b></span>
+              </li>
+              <li class="ruler__row"><span class="ruler__type">Extintores de agua</span><span class="ruler__track"><span class="ruler__bar ruler__bar--5"></span><span class="ruler__val">5 años</span></span></li>
+              <li class="ruler__row"><span class="ruler__type">Extintores de espuma</span><span class="ruler__track"><span class="ruler__bar ruler__bar--5"></span><span class="ruler__val">5 años</span></span></li>
+              <li class="ruler__row"><span class="ruler__type">Extintores de CO2</span><span class="ruler__track"><span class="ruler__bar ruler__bar--5"></span><span class="ruler__val">5 años</span></span></li>
+              <li class="ruler__row"><span class="ruler__type">Extintores de PQM ABC</span><span class="ruler__track"><span class="ruler__bar ruler__bar--12"></span><span class="ruler__val">12 años</span></span></li>
+              <li class="ruler__row"><span class="ruler__type">Extintores de PQM BC</span><span class="ruler__track"><span class="ruler__bar ruler__bar--12"></span><span class="ruler__val">12 años</span></span></li>
+              <li class="ruler__row"><span class="ruler__type">Extintores de PQM D</span><span class="ruler__track"><span class="ruler__bar ruler__bar--12"></span><span class="ruler__val">12 años</span></span></li>
+            </ul>
+
+            <h4 class="panel-sub">Equipos Especializados:</h4>
+            <div class="equipment">
+              <div class="equipment__item">
+                <h5>Equipo para Baja Presión</h5>
+                <p><strong>Uso:</strong> Extintores portátiles</p>
+                <p class="small">Especializado para pruebas de presión en extintores estándar</p>
+              </div>
+              <div class="equipment__item">
+                <h5>Equipo para Alta Presión</h5>
+                <p><strong>Uso:</strong> Extintores de CO2, cilindros de Aire, Argón, Oxígeno, Nitrógeno</p>
+                <p class="small">Diseñado para equipos que requieren mayor presión de prueba</p>
+              </div>
+            </div>
+
+            <div class="note note--alert" role="note">
+              <h4><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-alert-triangle"/></svg> Nota Importante</h4>
+              <p>Estas pruebas son reguladas por DOT (CFR49) y son mandatarias. El cumplimiento es obligatorio para garantizar la seguridad y legalidad de los equipos.</p>
+            </div>
+          </div>
+
+          <!-- Panel: Recarga -->
+          <div class="tabs__panel" role="tabpanel" id="panel-recarga" aria-labelledby="tab-recarga" tabindex="0" hidden>
+            <h3 class="panel-title">Recarga de Extintores Portátiles</h3>
+            <div class="recharge">
+              <div>
+                <h4 class="panel-sub">Procedimiento: <span class="recharge__count" aria-hidden="true"><span data-done>0</span>/10</span></h4>
+                <ol class="workorder" data-workorder>
+                  <li>Verificar tiempo correcto y buenas condiciones</li>
+                  <li>Realizar inspección visual</li>
+                  <li>Colocar extintor en banco de trabajo</li>
+                  <li>Abrir y verificar estado interno</li>
+                  <li>Utilizar equipo para recuperar polvo químico</li>
+                  <li>Retornar el mismo al extintor</li>
+                  <li>Revisar todas las partes internas</li>
+                  <li>Cargar con nitrógeno el extintor</li>
+                  <li>Etiquetar y colocar en sector listo para entrega</li>
+                  <li>Verificar si el extintor se debe repintar</li>
+                </ol>
+              </div>
+              <div>
+                <h4 class="panel-sub">Consideraciones Especiales:</h4>
+                <ul class="special">
+                  <li><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-clock"/></svg> Espuma: Cambio cada 3 años</li>
+                  <li><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-clock"/></svg> Agua: Cambio de carga cada año</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Preguntas frecuentes (mismo contenido técnico, en formato pregunta) -->
+        <div class="faq" data-reveal>
+          <h3 class="faq__title">Preguntas frecuentes</h3>
+          <details>
+            <summary>¿Cada cuánto se hace la prueba hidrostática de un extintor?</summary>
+            <p>Según DOT CFR 49: extintores de agua, espuma y CO2 cada 5 años; extintores de PQM ABC, BC y D cada 12 años.</p>
+          </details>
+          <details>
+            <summary>¿Cada cuánto se hace el mantenimiento interno de un extintor?</summary>
+            <p>Según NFPA10, el mantenimiento interno se realiza cada 6 años o en caso de haberse utilizado el extintor, con inspección visual entre mantenimientos.</p>
+          </details>
+          <details>
+            <summary>¿Cada cuánto se cambia la carga de un extintor de agua o espuma?</summary>
+            <p>La carga de agua se cambia cada año y la de espuma cada 3 años.</p>
+          </details>
+          <details>
+            <summary>¿Trabajan con todas las marcas de extintores?</summary>
+            <p>Sí. Los procesos internos varían según el fabricante y nuestros técnicos están capacitados para trabajar con todas las marcas.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="contact" id="contacto" aria-labelledby="contacto-titulo">
+      <div class="wrap">
+        <header class="contact__head" data-reveal>
+          <h2 id="contacto-titulo" class="contact__title">Contacta Con Nosotros</h2>
+          <p class="contact__lead">¿Necesitas proteger tu empresa? Conversemos sobre cómo podemos instalar el sistema contra incendios perfecto para ti.</p>
+        </header>
+
+        <div class="contact__grid">
+          <div class="contact__block contact__block--phones" data-reveal>
+            <h3><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-phone"/></svg> Teléfono</h3>
+            <a class="contact__big" href="tel:+5072665833">266-5833</a>
+            <a class="contact__big" href="tel:+50766748792">6674-8792</a>
+            <a class="contact__wa" href="https://wa.me/50766748792" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-brand-whatsapp"/></svg>
+              Escribir por WhatsApp <span class="visually-hidden">(se abre en una ventana nueva)</span>
+            </a>
+          </div>
+
+          <div class="contact__block" data-reveal>
+            <h3><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-mail"/></svg> Email</h3>
+            <a class="contact__line" href="mailto:Gerencia@agosan.net?subject=Consulta%20sobre%20servicios%20Agosan&amp;body=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20sistemas%20contra%20incendios.">Gerencia@agosan.net</a>
+            <a class="contact__line" href="mailto:Gsanchez@agosan.net?subject=Consulta%20sobre%20servicios%20Agosan&amp;body=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20sistemas%20contra%20incendios.">Gsanchez@agosan.net</a>
+          </div>
+
+          <div class="contact__block" data-reveal>
+            <h3><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-map-pin"/></svg> Ubicación</h3>
+            <address>Altos de Cerro Viento, Circunvalación B, #159<br>Panama City, Panama</address>
+            <a class="contact__link" href="https://www.google.com/maps/search/?api=1&amp;query=Altos%20de%20Cerro%20Viento%20Circunvalaci%C3%B3n%20B%20159%20Panam%C3%A1" target="_blank" rel="noopener noreferrer">
+              Cómo llegar <span class="visually-hidden">(Google Maps, se abre en una ventana nueva)</span>
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-arrow-up-right"/></svg>
+            </a>
+          </div>
+
+          <div class="contact__block" data-reveal>
+            <h3><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-clock"/></svg> Horarios</h3>
+            <p>Lun - Vie: 8:00 AM - 5:00 PM</p>
+            <a class="contact__link" href="https://www.instagram.com/agosan_panama" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-brand-instagram"/></svg>
+              @agosan_panama <span class="visually-hidden">(Instagram, se abre en una ventana nueva)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ PIE ============ -->
+  <footer class="site-footer">
+    <div class="wrap site-footer__grid">
+      <div>
+        <a class="brand" href="#inicio">
+          <img src="assets/img/logo-80.webp" alt="" width="40" height="40" loading="lazy">
+          <span>Agosan</span>
+        </a>
+        <p>Especialistas en sistemas contra incendios. Protegemos tu empresa con instalación, mantenimiento y certificación de equipos de seguridad.</p>
+      </div>
+      <nav aria-label="Pie de página">
+        <h2 class="site-footer__h">Navegación</h2>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#procedimientos">Procedimientos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="site-footer__h">Contacto</h2>
+        <ul>
+          <li><a href="tel:+5072665833">266-5833</a> / <a href="tel:+50766748792">6674-8792</a></li>
+          <li><a href="mailto:Gerencia@agosan.net">Gerencia@agosan.net</a></li>
+          <li><a href="mailto:Gsanchez@agosan.net">Gsanchez@agosan.net</a></li>
+          <li>Altos de cerro Viento, Circunvalación B, #159 Panama City, Panama</li>
+        </ul>
+      </div>
+    </div>
+    <p class="wrap site-footer__legal">© <span data-year>2026</span> Agosan. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Botón de llamada fijo en móvil -->
+  <a class="call-fab" href="tel:+5072665833" aria-label="Llamar a Agosan: 266-5833">
+    <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-phone"/></svg>
+    <span>Llamar</span>
+  </a>
+
+  <!-- ============ VENTANAS DE DETALLE DE SERVICIOS ============
+       Cada boton "Más Información" abre el <dialog> cuyo id indica data-dialog.
+       Para editar un servicio, cambia el texto aquí. -->
+
+  <dialog class="sheet" id="dlg-nfpa10" aria-labelledby="dlg-nfpa10-t">
+    <div class="sheet__head">
+      <svg class="sheet__icon" aria-hidden="true"><use href="assets/icons.svg#i-fire-extinguisher"/></svg>
+      <h2 id="dlg-nfpa10-t">Mantenimiento NFPA10</h2>
+      <button class="sheet__close" type="button" data-close aria-label="Cerrar"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-x"/></svg></button>
+    </div>
+    <div class="sheet__body">
+      <div>
+        <h3>Descripción General</h3>
+        <p>El mantenimiento NFPA10 es un procedimiento estandarizado que garantiza el funcionamiento óptimo de los extintores portátiles. Esta norma establece los requisitos mínimos para la inspección, mantenimiento y prueba de extintores.</p>
+        <h3>Proceso Técnico</h3>
+        <ol class="steps">
+          <li>Verificación de la fecha de la última prueba hidrostática</li>
+          <li>Inspección visual completa del extintor y sus componentes</li>
+          <li>Revisión del estado del manómetro y presión interna</li>
+          <li>Verificación del peso y contenido del extintor</li>
+          <li>Documentación completa del mantenimiento realizado</li>
+        </ol>
+      </div>
+      <div>
+        <h3>Beneficios del Servicio</h3>
+        <ul class="ticks ticks--light">
+          <li>Cumplimiento de normativas de seguridad</li>
+          <li>Garantía de funcionamiento en emergencias</li>
+          <li>Extensión de la vida útil del equipo</li>
+          <li>Reducción de riesgos de incendio</li>
+        </ul>
+        <div class="sheet__features">
+          <h4>Características Incluidas:</h4>
+          <ul><li>Inspección Visual</li><li>Mantenimiento Interno cada 6 años</li><li>Verificación de Estado</li></ul>
+        </div>
+        <div class="sheet__actions">
+          <a class="btn btn--hivis" href="#contacto" data-close>Solicitar Cotización</a>
+          <button class="btn btn--ghost" type="button" data-close>Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="sheet" id="dlg-hidrostatica" aria-labelledby="dlg-hidrostatica-t">
+    <div class="sheet__head">
+      <svg class="sheet__icon" aria-hidden="true"><use href="assets/icons.svg#i-droplet"/></svg>
+      <h2 id="dlg-hidrostatica-t">Prueba Hidrostática DOT CFR 49</h2>
+      <button class="sheet__close" type="button" data-close aria-label="Cerrar"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-x"/></svg></button>
+    </div>
+    <div class="sheet__body">
+      <div>
+        <h3>Descripción General</h3>
+        <p>La prueba hidrostática es un procedimiento obligatorio regulado por el DOT (Department of Transportation) que verifica la integridad estructural de los cilindros de extintores mediante presión de agua controlada.</p>
+        <h3>Proceso Técnico</h3>
+        <ol class="steps">
+          <li>Vaciado completo del extintor</li>
+          <li>Inspección visual interna y externa</li>
+          <li>Aplicación de presión hidrostática específica</li>
+          <li>Verificación de deformaciones o filtraciones</li>
+          <li>Certificación y etiquetado de cumplimiento</li>
+        </ol>
+      </div>
+      <div>
+        <h3>Beneficios del Servicio</h3>
+        <ul class="ticks ticks--light">
+          <li>Cumplimiento legal obligatorio</li>
+          <li>Prevención de explosiones por fatiga del metal</li>
+          <li>Certificación oficial de seguridad</li>
+          <li>Garantía de integridad estructural</li>
+        </ul>
+        <div class="sheet__features">
+          <h4>Características Incluidas:</h4>
+          <ul><li>Extintores Agua/Espuma: 5 años</li><li>Extintores CO2: 5 años</li><li>Extintores PQM ABC/BC/D: 12 años</li></ul>
+        </div>
+        <div class="sheet__actions">
+          <a class="btn btn--hivis" href="#contacto" data-close>Solicitar Cotización</a>
+          <button class="btn btn--ghost" type="button" data-close>Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="sheet" id="dlg-recarga" aria-labelledby="dlg-recarga-t">
+    <div class="sheet__head">
+      <svg class="sheet__icon" aria-hidden="true"><use href="assets/icons.svg#i-refresh"/></svg>
+      <h2 id="dlg-recarga-t">Recarga de Extintores</h2>
+      <button class="sheet__close" type="button" data-close aria-label="Cerrar"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-x"/></svg></button>
+    </div>
+    <div class="sheet__body">
+      <div>
+        <h3>Descripción General</h3>
+        <p>El servicio de recarga restaura la capacidad operativa de los extintores, reemplazando o renovando el agente extintor y verificando todos los componentes internos para garantizar su efectividad.</p>
+        <h3>Proceso Técnico</h3>
+        <ol class="steps">
+          <li>Desmontaje y limpieza de componentes</li>
+          <li>Recuperación del polvo químico reutilizable</li>
+          <li>Inspección de válvulas y sellos</li>
+          <li>Carga del agente extintor apropiado</li>
+          <li>Presurización con nitrógeno</li>
+          <li>Pruebas de funcionamiento y sellado</li>
+        </ol>
+      </div>
+      <div>
+        <h3>Beneficios del Servicio</h3>
+        <ul class="ticks ticks--light">
+          <li>Restauración completa de la capacidad extintora</li>
+          <li>Verificación de todos los componentes</li>
+          <li>Uso de agentes extintores de calidad</li>
+          <li>Certificación de recarga profesional</li>
+        </ul>
+        <div class="sheet__features">
+          <h4>Características Incluidas:</h4>
+          <ul><li>Recuperación de Polvo Químico</li><li>Cambio Espuma cada 3 años</li><li>Cambio Agua cada año</li></ul>
+        </div>
+        <div class="sheet__actions">
+          <a class="btn btn--hivis" href="#contacto" data-close>Solicitar Cotización</a>
+          <button class="btn btn--ghost" type="button" data-close>Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="sheet" id="dlg-ruedas" aria-labelledby="dlg-ruedas-t">
+    <div class="sheet__head">
+      <svg class="sheet__icon" aria-hidden="true"><use href="assets/icons.svg#i-wheel"/></svg>
+      <h2 id="dlg-ruedas-t">Extintores de Ruedas</h2>
+      <button class="sheet__close" type="button" data-close aria-label="Cerrar"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-x"/></svg></button>
+    </div>
+    <div class="sheet__body">
+      <div>
+        <h3>Descripción General</h3>
+        <p>Los extintores de ruedas requieren mantenimiento especializado debido a su mayor tamaño y capacidad. Estos equipos son esenciales para la protección de áreas industriales y comerciales de gran envergadura.</p>
+        <h3>Proceso Técnico</h3>
+        <ol class="steps">
+          <li>Aplicación de procedimientos similares a extintores portátiles</li>
+          <li>Calibración precisa del sistema de manómetros</li>
+          <li>Verificación del asiento de válvulas</li>
+          <li>Inspección del sistema de ruedas y movilidad</li>
+          <li>Pruebas de presión específicas para mayor capacidad</li>
+        </ol>
+      </div>
+      <div>
+        <h3>Beneficios del Servicio</h3>
+        <ul class="ticks ticks--light">
+          <li>Protección de áreas extensas</li>
+          <li>Mayor capacidad de extinción</li>
+          <li>Movilidad para respuesta rápida</li>
+          <li>Mantenimiento especializado profesional</li>
+        </ul>
+        <div class="sheet__features">
+          <h4>Características Incluidas:</h4>
+          <ul><li>Mismo procedimiento que en los extintores portátiles</li><li>Calibración de manómetro</li><li>Verificación del asiento</li></ul>
+        </div>
+        <div class="sheet__actions">
+          <a class="btn btn--hivis" href="#contacto" data-close>Solicitar Cotización</a>
+          <button class="btn btn--ghost" type="button" data-close>Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="sheet" id="dlg-equipos" aria-labelledby="dlg-equipos-t">
+    <div class="sheet__head">
+      <svg class="sheet__icon" aria-hidden="true"><use href="assets/icons.svg#i-gauge"/></svg>
+      <h2 id="dlg-equipos-t">Equipos Especializados</h2>
+      <button class="sheet__close" type="button" data-close aria-label="Cerrar"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-x"/></svg></button>
+    </div>
+    <div class="sheet__body">
+      <div>
+        <h3>Descripción General</h3>
+        <p>Contamos con equipamiento técnico especializado que nos permite realizar todos los procedimientos de mantenimiento con la máxima precisión y cumpliendo con los estándares internacionales de calidad.</p>
+        <h3>Proceso Técnico</h3>
+        <ol class="steps">
+          <li>Uso de equipos de baja presión para extintores estándar</li>
+          <li>Equipos de alta presión para CO2 y gases especiales</li>
+          <li>Sistemas de recuperación de polvo químico</li>
+          <li>Estaciones de carga con nitrógeno puro</li>
+          <li>Equipos de prueba y calibración</li>
+        </ol>
+      </div>
+      <div>
+        <h3>Beneficios del Servicio</h3>
+        <ul class="ticks ticks--light">
+          <li>Precisión en todos los procedimientos</li>
+          <li>Cumplimiento de estándares internacionales</li>
+          <li>Eficiencia en los procesos de mantenimiento</li>
+          <li>Garantía de calidad en el servicio</li>
+        </ul>
+        <div class="sheet__features">
+          <h4>Características Incluidas:</h4>
+          <ul><li>Equipo Baja/Alta Presión</li><li>Recuperador de Polvo</li><li>Carga con Nitrógeno</li></ul>
+        </div>
+        <div class="sheet__actions">
+          <a class="btn btn--hivis" href="#contacto" data-close>Solicitar Cotización</a>
+          <button class="btn btn--ghost" type="button" data-close>Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="sheet" id="dlg-soporte" aria-labelledby="dlg-soporte-t">
+    <div class="sheet__head">
+      <svg class="sheet__icon" aria-hidden="true"><use href="assets/icons.svg#i-headset"/></svg>
+      <h2 id="dlg-soporte-t">Soporte Técnico</h2>
+      <button class="sheet__close" type="button" data-close aria-label="Cerrar"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-x"/></svg></button>
+    </div>
+    <div class="sheet__body">
+      <div>
+        <h3>Descripción General</h3>
+        <p>Nuestro equipo técnico especializado brinda soporte integral, adaptándose a las especificaciones de cada fabricante y proporcionando asesoría profesional para optimizar los sistemas de protección contra incendios.</p>
+        <h3>Proceso Técnico</h3>
+        <ol class="steps">
+          <li>Análisis de especificaciones por fabricante</li>
+          <li>Desarrollo de procedimientos personalizados</li>
+          <li>Documentación técnica completa</li>
+          <li>Capacitación al personal del cliente</li>
+          <li>Soporte continuo y seguimiento</li>
+        </ol>
+      </div>
+      <div>
+        <h3>Beneficios del Servicio</h3>
+        <ul class="ticks ticks--light">
+          <li>Expertise en múltiples marcas y modelos</li>
+          <li>Soluciones adaptadas a cada caso</li>
+          <li>Documentación profesional completa</li>
+          <li>Respuesta técnica inmediata</li>
+        </ul>
+        <div class="sheet__features">
+          <h4>Características Incluidas:</h4>
+          <ul><li>Procesos por Fabricante</li><li>Documentación Completa</li><li>Respuesta Rápida</li></ul>
+        </div>
+        <div class="sheet__actions">
+          <a class="btn btn--hivis" href="#contacto" data-close>Solicitar Cotización</a>
+          <button class="btn btn--ghost" type="button" data-close>Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>

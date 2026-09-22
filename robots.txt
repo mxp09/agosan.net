@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agosan.net/sitemap.xml
