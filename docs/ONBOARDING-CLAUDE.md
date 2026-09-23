@@ -51,17 +51,15 @@ claude plugin list
 | `frontend-design` | github: anthropics/claude-plugins-official | Criterio visual al crear interfaces |
 | `superpowers` | github: anthropics/claude-plugins-official | Flujos de trabajo (lluvia de ideas, depuración sistemática, verificación) |
 
-Skills incluidas en el propio repositorio, en `.claude/skills/`, disponibles sin instalar nada:
+Skills incluidas en el propio repositorio, en `.claude/skills/`, disponibles sin instalar nada (ver sus créditos en `.claude/skills/README.md`):
 
-| Skill | Licencia | Para qué se usó |
-|---|---|---|
-| `no-ai-slop` | MIT (ver su carpeta) | Evitar textos con pinta de generados por IA |
+| Skill | Para qué se usó |
+|---|---|
+| `animate` | Decidir si algo debe animarse y con qué curva y duración |
+| `design-taste-frontend` | Evitar diseño de plantilla |
+| `no-ai-slop` | Evitar textos con pinta de generados por IA |
 
 Comandos de Claude Code que se usaron y ya vienen incluidos: `/code-review` (revisión de errores) y `/security-review` (revisión de seguridad).
-
-### Skills que no están en el repositorio
-
-`animate` y `design-taste-frontend` son de otros autores y no traen licencia, así que no se republican aquí. Si las tienes, van en `~/.claude/skills/<nombre>/`. Si no, no pasa nada: las reglas que aplicaron ya están escritas en `CLAUDE.md` y en `docs/HISTORIAL.md`.
 
 ## 4. Trabajar
 

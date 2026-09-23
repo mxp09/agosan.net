@@ -42,7 +42,7 @@ npx serve .
 
 ## Skills y plugins que se usaron
 
-Están listados en `docs/ONBOARDING-CLAUDE.md` junto con el instalador. En resumen: `ui-ux-pro-max` y `playwright` (plugins), y las skills `animate`, `design-taste-frontend`, `no-ai-slop`, más `/code-review` y `/security-review` de Claude Code.
+Están listados en `docs/ONBOARDING-CLAUDE.md` junto con el instalador. En resumen: `ui-ux-pro-max` y `playwright` (plugins que se instalan con `scripts/setup-claude.*`), las skills `animate`, `design-taste-frontend` y `no-ai-slop` (ya incluidas en `.claude/skills/`), y los comandos `/code-review` y `/security-review` de Claude Code.
 
 ## Historial
 
