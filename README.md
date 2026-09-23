@@ -35,6 +35,10 @@ _headers                Cabeceras de seguridad (solo para Cloudflare Pages o Net
 
 Si cambias la fecha de algo importante, actualiza también `lastmod` en `sitemap.xml`.
 
+## Abrirlo en otro computador con Claude Code
+
+Sigue `docs/ONBOARDING-CLAUDE.md`: clonar, ejecutar `scripts/setup-claude.ps1` (Windows) o `scripts/setup-claude.sh` (macOS y Linux) y abrir el proyecto. `CLAUDE.md` y `docs/HISTORIAL.md` le dan a Claude todo el contexto.
+
 ## Probar en local
 
 ```bash

@@ -1,5 +1,6 @@
 .playwright-mcp/
-.claude/
+.claude/launch.json
+.claude/settings.local.json
 node_modules/
 *.log
 .DS_Store
